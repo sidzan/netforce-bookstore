@@ -10,6 +10,7 @@ class BookstoreCustomer(Model):
         "job" : fields.Char("Job"),
         "birth_date" : fields.Date("Birth Date"),
         "num_of_book_burrowed" : fields.Integer("Books Burrowed",function="get_num_of_book_burrowed"),
+        "sijan_field": fields.Integer("Int"),
     }
 
     _defaults = {
