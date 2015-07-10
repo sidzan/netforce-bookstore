@@ -11,6 +11,7 @@ class BookstoreCustomer(Model):
         "birth_date" : fields.Date("Birth Date"),
         "num_of_book_burrowed" : fields.Integer("Books Burrowed",function="get_num_of_book_burrowed"),
         "myfield": fields.Char("blabla"),
+        "sijan_field": fields.Integer("Int"),
     }
 
     _defaults = {
