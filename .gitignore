@@ -1,0 +1,10 @@
+*.pyc
+*/models_js/*
+*/templates_js/*
+*/actions_js/*
+*/xml_views_js/*
+*/templates_c/*
+*/actions_c/*
+*.egg-info/*
+*.swp
+/dist
