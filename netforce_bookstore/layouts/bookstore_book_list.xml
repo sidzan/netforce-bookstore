@@ -1,0 +1,9 @@
+<list model="bookstore.book">
+    <field name="name"/>
+    <field name="author"/>
+    <field name="description"/>
+    <field name="cost"/>
+    <field name="category"/>
+    <field name="number_of_books"/>
+    <field name="number_of_book_left"/>
+</list>

@@ -1,0 +1,7 @@
+<list model="bookstore.burrow">
+    <field name="customer"/>
+    <field name="date"/>
+    <field name="date_expiry"/>
+    <field name="num_of_book_burrowed"/>
+</list>
+

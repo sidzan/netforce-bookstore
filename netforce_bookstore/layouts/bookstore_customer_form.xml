@@ -1,0 +1,9 @@
+<form model="bookstore.customer">
+    <field name="name"/>
+    <field name="age"/>
+    <field name="job"/>
+    <field name="gender"/>
+    <field name="birth_date"/>
+    <field name="num_of_book_burrowed"/>
+
+</form>

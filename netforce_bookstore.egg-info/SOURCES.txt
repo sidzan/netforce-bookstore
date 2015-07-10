@@ -1,0 +1,5 @@
+setup.py
+netforce_bookstore.egg-info/PKG-INFO
+netforce_bookstore.egg-info/SOURCES.txt
+netforce_bookstore.egg-info/dependency_links.txt
+netforce_bookstore.egg-info/top_level.txt

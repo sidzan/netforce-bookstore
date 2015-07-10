@@ -1,0 +1,7 @@
+<action>
+    <field name="string">Bookstore Cusotmer</field>
+    <field name="view_cls">multi_view</field>
+    <field name="model">bookstore.customer</field>
+    <field name="tabs">[["ALL",[]],["Male",[["gender","=","male"]]],["Female",[["gender","=","female"]]]]</field>
+    <field name="menu">bookstore_menu</field>
+</action>

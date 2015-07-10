@@ -1,0 +1,4 @@
+<form model="bookstore.category">
+    <field name="name"/>
+    <field name="description"/>
+</form>

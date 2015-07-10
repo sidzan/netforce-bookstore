@@ -1,0 +1,6 @@
+<action>
+    <field name="string">Bookstore Dashboard</field>
+    <field name="view_cls">board</field>
+    <field name="view_xml">bookstore_board</field>
+    <field name="menu">bookstore_menu</field>
+</action>

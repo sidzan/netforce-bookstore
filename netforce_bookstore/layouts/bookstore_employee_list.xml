@@ -1,0 +1,4 @@
+<list model="bookstore.employee">
+    <field name="name"/>
+    <field name="age"/>
+</list>

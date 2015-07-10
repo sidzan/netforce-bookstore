@@ -1,0 +1,33 @@
+<form model="bookstore.burrow">
+    <head>
+        <field name="state"/>
+    </head>
+
+    <group form_layout="stacked">
+        <field name="customer" span="2"/>
+        <field name="number" span="2"/>
+        <field name="issuer" span="2"/>
+        <field name="date" span="2"/>
+    </group>
+    
+    
+    <field name="lines" nolabel="1">
+        <list>
+            <field name="book_id" onchange="onchange_book"/>
+            <field name="unit_price"/>
+            <field name="qty" onchange="onchange_qty"/>
+            <field name="total_cost"/>
+        </list>
+    </field>
+
+    <group form_layout="stacked">
+        <field name="num_of_book_burrowed"/>
+        <field name="total_amount"/>
+    </group>
+
+    <foot>
+        <button string="Approve" method="approve_review" type="success" states="draft"/>
+        <button string="Cancel" method="discard_review" type ="danger" states="draft"/>
+        <button string="Reset" method="reset_draft" icon="refresh" states="approved,discarded"/>
+    </foot>
+</form>

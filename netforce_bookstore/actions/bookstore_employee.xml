@@ -1,0 +1,8 @@
+<action>
+    <field name="string">Bookstore Employees</field>
+    <field name="view_cls">multi_view</field>
+    <field name="model">bookstore.employee</field>
+    <field name="menu">bookstore_menu</field>
+</action>
+
+

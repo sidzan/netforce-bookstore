@@ -1,0 +1,10 @@
+<menu>
+    <item string="Dashboard" action="bookstore_board"/>
+    <item string="Customer" action="bookstore_customer"/>
+    <item string="Books">
+        <item string="Books" action="bookstore_books"/>
+        <item string="Cateory" action="bookstore_category"/>
+        <item string="Burrow" action="bookstore_burrow"/>
+    </item>
+    <item string="Employee" action="bookstore_employee"/>
+</menu>

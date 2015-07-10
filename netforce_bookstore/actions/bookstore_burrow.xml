@@ -1,0 +1,9 @@
+<action>
+    <field name="string">Bookstore Burrow</field>
+    <field name="view_cls">multi_view</field>
+    <field name="model">bookstore.burrow</field>
+    <field name="menu">bookstore_menu</field>
+    <field name="tabs">[["ALL",[]],["Draft",[["state","=","draft"]]],["Approved",[["state","=","approved"]]]]</field>
+</action>
+
+

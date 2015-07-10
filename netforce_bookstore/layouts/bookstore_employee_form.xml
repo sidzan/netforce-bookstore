@@ -1,0 +1,4 @@
+<form model="bookstore.employee">
+    <field name="name"/>
+    <field name="age"/>
+</form>

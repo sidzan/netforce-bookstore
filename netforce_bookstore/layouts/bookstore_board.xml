@@ -1,0 +1,6 @@
+<board>
+    <vpanel>
+        <widget action="bookstore_burrow" string="Books Burrowed" span="12"/>
+    </vpanel>    
+</board>
+
